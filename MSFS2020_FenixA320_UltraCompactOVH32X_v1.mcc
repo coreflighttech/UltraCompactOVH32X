@@ -488,7 +488,7 @@
     <config guid="a1b61200-dacc-48b2-b568-5e3c2f98f49c">
       <active>false</active>
       <description>FNX_FUEL_XFEED</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="CFT_A320_OVH_v1/ SN-G41-1A9" name="InputShifter 1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="MobiFlight Nano/ SN-2B5-26A" name="InputShifter 1" type="InputShiftRegister" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputShiftRegister ExtPin="9">
           <onPress type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_XFEED) ! (&gt;L:S_OH_FUEL_XFEED)&#xA;" presetId="8987eb02-c1ab-4d16-806f-ceabf487c35a" />
           <onRelease type="MSFS2020CustomInputAction" command="(L:S_OH_FUEL_XFEED) ! (&gt;L:S_OH_FUEL_XFEED)&#xA;" presetId="8987eb02-c1ab-4d16-806f-ceabf487c35a" />
@@ -798,4 +798,5 @@
       </settings>
     </config>
   </inputs>
+
 </MobiflightConnector>
