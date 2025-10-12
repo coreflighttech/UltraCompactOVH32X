@@ -1,0 +1,17 @@
+// CORE FLIGHT TECHONOLOGIES ULTRA COMPACT A32X OVERHEAD PANEL firmware for SPAD.neXt SERIAL V2
+//
+// By 1L2P (Discord 1L2P)
+//
+// r01 Initial release
+//
+// Serial com has to be set at 115200 bauds in SPAD serial device settings (default bitrate)
+//
+// Internal devices features (not designed to be used when connected to SPAD)
+// - Cycle backlight brightness by pressing "APU START" and "CALLS ALL" buttons (0, 64 , 128, 192, 255)
+// - Soft reset with IR1 set on ATT and by pressing "APU START" and "CALLS ALL" buttons (only use when not connected to SPAD, or just plug/unplug USB cable)
+//
+// To manage backlight brightness from SPAD, search for these variables.
+// - BACKLIGHT_BRI : Panel backlight brightness from 0 to 255 (DEVICE:1L2P/CFTA32XOVHUC/BACKLIGHT_BRI)
+
+// SPAD test snippet for Fly By Wire A32X is #15013
+// SPAD test snippet for Fenix A320 is #15012
