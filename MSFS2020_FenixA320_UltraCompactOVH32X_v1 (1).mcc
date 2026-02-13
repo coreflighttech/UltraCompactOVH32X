@@ -1,6 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <MobiflightConnector>
   <outputs>
+    <config guid="ecbbcf13-9bac-4ca9-8ce2-49ee8986f11c">
+      <active>true</active>
+      <description>Backlight</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="" UUID="-" />
+        <test type="Float" value="200" />
+        <modifiers>
+          <transformation active="True" expression="$+200" />
+        </modifiers>
+        <display type="Output" serial="CFT_Ultra_C_OVH/ SN-E09-C3B" trigger="normal" pin="Output" pinBrightness="255" pinPwm="True" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
     <config guid="cb9878cc-2b09-4566-bbba-0d4a0a985f34">
       <active>true</active>
       <description>FNX_APU_START_ON</description>
@@ -311,20 +325,6 @@
         <test type="Float" value="1" />
         <modifiers />
         <display type="ShiftRegister" serial="CFT_Ultra_C_OVH/ SN-E09-C3B" trigger="normal" shiftRegister="ShiftRegister" registerOutputPin="Output 1" />
-        <preconditions />
-        <configrefs />
-      </settings>
-    </config>
-    <config guid="5c0e227b-fd6c-4244-98a4-9fdf9ea445bf">
-      <active>true</active>
-      <description>Backlight</description>
-      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-        <source type="SimConnect" VarType="CODE" Value="" UUID="-" />
-        <test type="Float" value="1" />
-        <modifiers>
-          <transformation active="True" expression="$ + 200" />
-        </modifiers>
-        <display type="Output" serial="CFT_Ultra_C_OVH/ SN-E09-C3B" trigger="normal" pin="Output" pinBrightness="255" />
         <preconditions />
         <configrefs />
       </settings>
